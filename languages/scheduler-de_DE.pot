@@ -1,0 +1,33 @@
+# Copyright (C) 2019 Scheduler
+# This file is distributed under the same license as the Scheduler package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduler 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/scheduler\n"
+"POT-Creation-Date: 2019-04-09 17:01+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Scheduler"
+msgstr "Stundenplaner"
+
+#. Description of the plugin/theme
+msgid "Create multiple schedules for weekly events with Lightbox overlays and PDF generation."
+msgstr "Erstelle Stundenpläne für wöchentliche Termine mit Lightbox-Overlays und erzeuge daraus eine PDF."
+
+#. Author of the plugin/theme
+msgid "Nikolas Kirschstein"
+msgstr "Nikolas Kirschstein"
+
+#. Author URI of the plugin/theme
+msgid "http://www.nikolas-kirschstein.de/"
+msgstr "http://www.nikolas-kirschstein.de/"

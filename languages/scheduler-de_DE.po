@@ -1,0 +1,346 @@
+# Copyright (C) 2019 Scheduler
+# This file is distributed under the same license as the Scheduler package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduler 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/scheduler\n"
+"POT-Creation-Date: 2019-04-28 19:11+0200\n"
+"PO-Revision-Date: 2019-04-28 19:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller/Admin_Controller.php:40
+msgid "Do you want to delete the selected schedule?"
+msgstr "Möchtest du den ausgewählten Stundenplan löschen?"
+
+#: controller/Admin_Controller.php:53 controller/Admin_Controller.php:54
+msgid "Scheduler"
+msgstr "Stundenplaner"
+
+#: controller/Admin_Controller.php:56 controller/Admin_Controller.php:57
+#: view/admin/schedule/Schedule_Summary_View.php:15
+msgid "Schedules"
+msgstr "Stundenpläne"
+
+#: controller/Admin_Controller.php:60 controller/Admin_Controller.php:61
+#: view/admin/event/Event_Summary_View.php:21
+msgid "Events"
+msgstr "Veranstaltungen"
+
+#: controller/Admin_Controller.php:64 controller/Admin_Controller.php:65
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: controller/Frontend_Controller.php:58
+#, php-format
+msgid "No schedule exists with the specified ID %s. Check your shortcode!"
+msgstr "Es existiert kein Stundenplan mit der ID %s. Überprüfe deinen Shortcode!"
+
+#: controller/Scheduler.php:37
+msgid "Monday"
+msgstr "Montag"
+
+#: controller/Scheduler.php:39
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: controller/Scheduler.php:41
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: controller/Scheduler.php:43
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: controller/Scheduler.php:45
+msgid "Friday"
+msgstr "Freitag"
+
+#: controller/Scheduler.php:47
+msgid "Saturday"
+msgstr "Samstag"
+
+#: controller/Scheduler.php:49
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: model/DatabaseManager.php:74
+msgid "Database query error"
+msgstr "Datenbankfehler"
+
+#: view/admin/Import_Export_Menu.php:19
+msgid "Import/Export schedule data"
+msgstr "Stundenplan-Daten importieren/exportieren"
+
+#: view/admin/Import_Export_Menu.php:21
+msgid "Export schedules"
+msgstr "Stundenpläne exportieren"
+
+#: view/admin/Import_Export_Menu.php:22
+msgid "Export all schedule data into a single .sql file which can be used for backup."
+msgstr "Alle Stundenplan-Daten in eine .sql-Datei exportieren, die für Backups verwendet werden kann."
+
+#: view/admin/Import_Export_Menu.php:23
+msgid "Note that all event thumbnails will have to be transferred manually and set again."
+msgstr "Beachte, dass alle Veranstaltungsvorschaubilder manuell übertragen und neu gesetzt warden müssen."
+
+#: view/admin/Import_Export_Menu.php:26
+msgid "Export"
+msgstr "Exportieren"
+
+#: view/admin/Import_Export_Menu.php:28
+msgid "Import schedules"
+msgstr "Stundenpläne importieren"
+
+#: view/admin/Import_Export_Menu.php:29
+msgid ""
+"Import all schedule data from previously exported .sql file. Attention: All current data will be "
+"overridden!"
+msgstr ""
+"Alle Stundenplan-Daten aus einer zuvor exportiereten .sql-Datei übernehmen. Achtung: Alle jetzigen "
+"Daten werden überschrieben!"
+
+#: view/admin/Import_Export_Menu.php:34
+msgid "Import"
+msgstr "Importieren"
+
+#: view/admin/Import_Export_Menu.php:90
+msgid "Error while importing! No changes have been made."
+msgstr "Fehler beim Importieren! Es wurden keine Änderungen vorgenommen."
+
+#: view/admin/Import_Export_Menu.php:105
+msgid "Error while restoring! Contact one of the plugin authors for further help."
+msgstr "Fehler beim Wiederherstellen! Kontaktiere einen der Plugin-Autoren für weitere Hilfe."
+
+#: view/admin/Import_Export_Menu.php:106
+msgid "Error message:"
+msgstr "Fehlernachricht:"
+
+#: view/admin/Import_Export_Menu.php:119
+msgid "Schedule data successfully imported."
+msgstr "Stundenplan-Daten erfolgreich importiert."
+
+#: view/admin/Import_Export_Menu.php:127
+msgid "A .sql file must be selected for import!"
+msgstr "Eine .sql-Datei muss für das Importieren ausgewählt werden!"
+
+#: view/admin/Schedule_Menu.php:68
+msgid "Unspecified edit tab!"
+msgstr "Undefinierter edit tab!"
+
+#: view/admin/Schedule_Menu.php:111
+msgid "General"
+msgstr "Allgemein"
+
+#: view/admin/Schedule_Menu.php:114
+msgid "Items"
+msgstr "Einträge"
+
+#: view/admin/Schedule_Menu.php:117
+msgid "Settings"
+msgstr "Optionen"
+
+#: view/admin/event/Event_Edit_View.php:19
+msgid "Edit event"
+msgstr "Veranstaltung bearbeiten"
+
+#: view/admin/event/Event_Edit_View.php:20
+msgid "Save event"
+msgstr "Veranstaltung speichern"
+
+#: view/admin/event/Event_Edit_View.php:24
+msgid "No event id specified!"
+msgstr "Keine Veranstaltungs-ID angegeben!"
+
+#: view/admin/event/Event_Edit_View.php:28 view/admin/event/Event_Edit_View.php:29
+msgid "Add event"
+msgstr "Veranstaltung hinzufügen"
+
+#: view/admin/event/Event_Edit_View.php:50 view/admin/event/Event_List_Table.php:30
+#: view/admin/schedule/Schedule_Edit_View.php:39 view/admin/schedule/Schedule_List_Table.php:30
+msgid "Title"
+msgstr "Titel"
+
+#: view/admin/event/Event_Edit_View.php:61
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: view/admin/event/Event_Edit_View.php:70
+msgid "Select..."
+msgstr "Auswählen..."
+
+#: view/admin/event/Event_Edit_View.php:77
+msgid "Associated page"
+msgstr "Assoziierte Seite"
+
+#: view/admin/event/Event_Edit_View.php:84
+msgid "[None]"
+msgstr "[kein]"
+
+#: view/admin/event/Event_Edit_View.php:93 view/admin/event/Event_List_Table.php:31
+msgid "Color"
+msgstr "Farbe"
+
+#: view/admin/event/Event_Edit_View.php:106 view/admin/schedule/Schedule_Edit_View.php:44
+msgid "Description"
+msgstr "Beschreibung"
+
+#: view/admin/event/Event_Edit_View.php:134
+msgid "Select event thumbnail"
+msgstr "Veranstaltungsvorschaubild auswählen"
+
+#: view/admin/event/Event_List_Table.php:17
+msgid "event"
+msgstr "veranstaltung"
+
+#: view/admin/event/Event_List_Table.php:18
+msgid "events"
+msgstr "veranstaltungen"
+
+#: view/admin/event/Event_List_Table.php:32
+msgid "Page"
+msgstr "Seite"
+
+#: view/admin/event/Event_List_Table.php:57
+msgid "No events exist. Add one using the \"Create\" button!"
+msgstr "Keine Veranstaltungen vorhanden. Erstelle eine mit dem \"Erstellen\"-Button!"
+
+#: view/admin/event/Event_List_Table.php:115 view/admin/schedule/Schedule_List_Table.php:100
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: view/admin/event/Event_List_Table.php:118 view/admin/event/Event_List_Table.php:149
+#: view/admin/schedule/Schedule_Items_View.php:109 view/admin/schedule/Schedule_List_Table.php:103
+#: view/admin/schedule/Schedule_List_Table.php:129
+msgid "Delete"
+msgstr "Löschen"
+
+#: view/admin/event/Event_Summary_View.php:24 view/admin/schedule/Schedule_Summary_View.php:17
+msgid "Create"
+msgstr "Erstellen"
+
+#: view/admin/event/Event_Summary_View.php:27
+msgid "Click on an event to edit it."
+msgstr "Klicke auf eine Veranstaltung, um sie zu bearbeiten."
+
+#: view/admin/schedule/Schedule_Edit_View.php:21
+msgid "Edit schedule"
+msgstr "Stundenplan bearbeiten"
+
+#: view/admin/schedule/Schedule_Edit_View.php:23 view/admin/schedule/Schedule_Settings_View.php:78
+msgid "Save schedule"
+msgstr "Stundenplan speichern"
+
+#: view/admin/schedule/Schedule_Edit_View.php:25 view/admin/schedule/Schedule_Edit_View.php:27
+msgid "Add schedule"
+msgstr "Stundenplan hinzufügen"
+
+#: view/admin/schedule/Schedule_Items_View.php:26
+msgid "Edit items"
+msgstr "Einträge bearbeiten"
+
+#: view/admin/schedule/Schedule_Items_View.php:34
+msgid "Add item"
+msgstr "Eintrag hinzufügen"
+
+#: view/admin/schedule/Schedule_Items_View.php:38
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: view/admin/schedule/Schedule_Items_View.php:46
+msgid "on"
+msgstr "am"
+
+#: view/admin/schedule/Schedule_Items_View.php:54
+msgid "from"
+msgstr "von"
+
+#: view/admin/schedule/Schedule_Items_View.php:57 view/admin/schedule/Schedule_Items_View.php:104
+#: view/admin/schedule/Schedule_Settings_View.php:70
+msgid "to"
+msgstr "bis"
+
+#: view/admin/schedule/Schedule_Items_View.php:60
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: view/admin/schedule/Schedule_Items_View.php:67
+msgid "Registered items"
+msgstr "Vorhandene Einträge"
+
+#: view/admin/schedule/Schedule_Items_View.php:86
+msgid "No items."
+msgstr "Keine Einträge."
+
+#: view/admin/schedule/Schedule_Items_View.php:142
+msgid "No valid edit action!"
+msgstr "Keine gültige edit action!"
+
+#: view/admin/schedule/Schedule_List_Table.php:17
+msgid "schedule"
+msgstr "stundenplan"
+
+#: view/admin/schedule/Schedule_List_Table.php:18
+msgid "schedules"
+msgstr "stundenplaene"
+
+#: view/admin/schedule/Schedule_List_Table.php:31
+msgid "ID"
+msgstr "ID"
+
+#: view/admin/schedule/Schedule_List_Table.php:32
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: view/admin/schedule/Schedule_List_Table.php:56
+msgid "No schedules exist. Add one using the \"Create\" button!"
+msgstr "Keine Stundenpläne vorhanden. Erstelle einen mit dem \"Erstellen\"-Button!"
+
+#: view/admin/schedule/Schedule_Settings_View.php:36
+msgid "Schedule settings"
+msgstr "Stundenplan-Einstellungen"
+
+#: view/admin/schedule/Schedule_Settings_View.php:43
+msgid "Accent color"
+msgstr "Akzentfarbe"
+
+#: view/admin/schedule/Schedule_Settings_View.php:51
+msgid "Visible weekdays"
+msgstr "Sichtbare Wochentage"
+
+#: view/admin/schedule/Schedule_Settings_View.php:64
+msgid "Schedule scope"
+msgstr "Sichtbarer Zeitraum"
+
+#: view/admin/schedule/Schedule_Settings_View.php:66
+msgid "From"
+msgstr "Von"
+
+#: view/admin/schedule/Schedule_Summary_View.php:20
+msgid "Click on a schedule to edit it."
+msgstr "Klicke auf einen Stundenplan, um ihn zu bearbeiten."
+
+#: view/public/PDF_Generator.php:100 view/public/Schedule_View.php:95
+msgid "Time"
+msgstr "Zeit"
+
+#: view/public/Schedule_View.php:62
+msgid "Download PDF"
+msgstr "PDF herunterladen"
+
+#: view/public/Schedule_View.php:173
+msgid "More Info"
+msgstr "Mehr Infos"
+
+#. Description of the plugin/theme
+msgid "Create multiple schedules for weekly events with Lightbox overlays and PDF generation."
+msgstr "Erstelle Stundenpläne für wöchentliche Termine mit Lightbox-Overlays und erzeuge daraus eine PDF."

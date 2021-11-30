@@ -1,0 +1,190 @@
+.skd-schedule .skd-schedule-description {
+    margin: 10px 0;
+}
+
+.skd-schedule .skd-schedule-wrapper table {
+    background: rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.skd-schedule .skd-schedule-wrapper table thead {
+    background: #0086cd url("../images/schedule-item-background.png");
+    height: 40px;
+}
+
+.skd-schedule .skd-schedule-wrapper thead th {
+    border: 1px solid #0086cd;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody tr {
+    height: 15px;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody th {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody td {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody td, .skd-schedule .skd-schedule-wrapper table tbody th {
+    border: 1px solid #666;
+    line-height: 1;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(4n+3),
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(4n+4) {
+    background: rgba(232, 232, 232, 0.5);
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(even) td:not(.skd-schedule-cell),
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(even) th {
+    border-top: none;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(odd):not(:last-child) td:not(.skd-schedule-cell),
+.skd-schedule .skd-schedule-wrapper table tbody tr:nth-child(odd):not(:last-child) th {
+    border-bottom: none;
+}
+
+.skd-schedule .skd-schedule-wrapper table .skd-schedule-item-info {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.skd-schedule .skd-schedule-wrapper table .skd-schedule-item-time, .skd-schedule .skd-schedule-item-title {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+.skd-schedule .skd-schedule-wrapper table .skd-schedule-item-title {
+    font-size: 12px;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody .skd-schedule-item {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background: #0086cd url("../images/schedule-item-background.png") repeat-x;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.skd-schedule .skd-schedule-wrapper table tbody .skd-schedule-item:hover {
+    text-decoration: none;
+    opacity: 0.75;
+    -webkit-transition: opacity 200ms ease-in-out;
+    -moz-transition: opacity 200ms ease-in-out;
+    -ms-transition: opacity 200ms ease-in-out;
+    -o-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
+}
+
+.skd-schedule .skd-pdf-link {
+    text-align: right;
+    padding: 5px;
+}
+
+.skd-schedule .skd-pdf-link a:before {
+    content: url("../images/pdf-icon.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*
+ * Colorbox
+ */
+
+.skd-schedule-overlay {
+    display: none;
+}
+
+.skd-schedule-colorbox #cboxLoadedContent {
+    max-width: 300px;
+    text-align: center;
+}
+
+.skd-schedule-event-thumbnail img {
+    width: 100%;
+}
+
+.skd-schedule-event-title {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.skd-schedule-event-description {
+    margin: 20px;
+}
+
+.skd-schedule .skd-schedule-link {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: #0086cd;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#cboxClose:after {
+    display: none;
+}
+
+#cboxClose {
+    font-size: 0;
+    color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    border: none;
+    text-decoration: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cboxClose:before {
+    content: 'X';
+    color: #a00002;
+    display: block;
+    font-size: 14px;
+}
+
+#colorbox img {
+    max-width: none;
+    max-height: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .skd-schedule-wrapper {
+        overflow-x: scroll;
+    }
+
+    .skd-schedule table {
+        min-width: 1000px;
+    }
+}
